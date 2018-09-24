@@ -27,4 +27,12 @@ injectGlobal`
     font-family: Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
   }
+  .ant-checkbox-checked .ant-checkbox-inner{
+    background:#00b22d;
+    border-color:#00b22d;
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner{
+    border-color:#00b22d;
+    
+  }
 `;
