@@ -56,4 +56,8 @@ injectGlobal`
   text-decoration: underline;
   color:grey;
 }
+  .Icon{
+    font-size:30px;
+    
+  }
 `;
