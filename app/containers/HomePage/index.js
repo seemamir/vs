@@ -26,7 +26,7 @@ export default class HomePage extends React.Component {
         <ListItems />
         <DefaultButton />
         <Footer />
-        <inputBox />
+        {/* <inputBox /> */}
       </div>
     );
   }

@@ -13,7 +13,7 @@ const Foooter = styled.footer`
     width: 120px;
     height: 35px;
     background: red;
-    margin-left: 100px;
+    margin-left: 30px;
     display: inline-flex;
     margin-top: 33px;
   }

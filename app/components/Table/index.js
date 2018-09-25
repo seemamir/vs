@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Table } from 'antd';
+import { Row, Col, Table } from 'antd';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
@@ -114,12 +114,16 @@ const rowSelection = {
   },
 };
 const ListItems = () => (
-  <Table
-    rowSelection={rowSelection}
-    columns={columns}
-    dataSource={data}
-    pagination={false}
-  />
+  <Row>
+    <Col>
+      <Table
+        rowSelection={rowSelection}
+        columns={columns}
+        dataSource={data}
+        pagination={false}
+      />
+    </Col>
+  </Row>
 );
 
 ListItems.propTypes = {};

@@ -24,10 +24,10 @@ class Footer extends React.Component {
           <Col span={12}>
             <ul>
               <li>
-                <Link to="/">Terms Of Services</Link>
+                <Link to="">Terms Of Services</Link>
               </li>
               <li>
-                <Link to="/">Help</Link>
+                <Link to="">Help</Link>
               </li>
             </ul>
           </Col>

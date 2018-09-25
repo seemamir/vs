@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  height: 50px;
   .ant-layout-header {
     box-shadow: 0px 2px 10px 0 #ccc;
     background-color: white;

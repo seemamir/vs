@@ -48,4 +48,12 @@ injectGlobal`
   .primary-button:hover{
     background:#254179;
   }
+.link-draft{
+  color:grey;
+  text-decoration: underline;
+}
+.link-draft:hover{
+  text-decoration: underline;
+  color:grey;
+}
 `;
