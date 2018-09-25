@@ -48,4 +48,8 @@ injectGlobal`
   .primary-button:hover{
     background:#254179;
   }
+  .Icon{
+    font-size:30px;
+    
+  }
 `;

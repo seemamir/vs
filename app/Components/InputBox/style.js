@@ -1,2 +1,5 @@
 import styled from 'styled-components';
-const InputBox = styled.InputBox``;
+const InputBox = styled.Input`
+  background-color: red;
+`;
+export default InputBox;

@@ -16,6 +16,8 @@ import Navbar from '../../components/Header/Loadable';
 import ListItems from '../../components/Table/Loadable';
 import Footer from '../../components/Footer/Loadable';
 import DefaultButton from '../../components/Button/Loadable';
+import InputBox from '../../components/InputBox/Loadable';
+import Taps from '../../components/Taps/Loadable';
 
 /* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.Component {
@@ -26,7 +28,8 @@ export default class HomePage extends React.Component {
         <ListItems />
         <DefaultButton />
         <Footer />
-        <inputBox />
+        <InputBox />
+        <Taps />
       </div>
     );
   }
