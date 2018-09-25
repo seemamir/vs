@@ -14,6 +14,8 @@ import React from 'react';
 // import messages from './messages';
 import Navbar from '../../components/Header/index';
 import ListItems from '../../components/Table/Loadable';
+import Footer from '../../components/Footer/Loadable';
+import DefaultButton from '../../components/Button/Loadable';
 
 /* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.Component {
@@ -22,6 +24,8 @@ export default class HomePage extends React.Component {
       <div>
         <Navbar />
         <ListItems />
+        <DefaultButton />
+        <Footer />
       </div>
     );
   }

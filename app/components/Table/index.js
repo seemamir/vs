@@ -16,32 +16,90 @@ const columns = [
     dataIndex: 'name',
   },
   {
-    title: 'Age',
-    dataIndex: 'age',
+    title: 'Feild1',
+    dataIndex: 'feild1',
   },
   {
-    title: 'Address',
-    dataIndex: 'address',
+    title: 'Feild2',
+    dataIndex: 'feild2',
+  },
+  {
+    title: 'Feild3',
+    dataIndex: 'feild3',
+  },
+  {
+    title: 'Feild4',
+    dataIndex: 'feild4',
+  },
+  {
+    title: 'Feild5',
+    dataIndex: 'feild5',
+  },
+  {
+    title: 'Feild6',
+    dataIndex: 'feild6',
   },
 ];
 const data = [
   {
     key: '1',
-    name: 'John Brown',
-    age: 32,
-    address: 'New York No. 1 Lake Park',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
   },
   {
     key: '2',
-    name: 'Jim Green',
-    age: 42,
-    address: 'London No. 1 Lake Park',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
   },
   {
     key: '3',
-    name: 'Joe Black',
-    age: 32,
-    address: 'Sidney No. 1 Lake Park',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
+  },
+  {
+    key: '4',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
+  },
+  {
+    key: '5',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    Feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
+  },
+  {
+    key: '6',
+    name: 'Name1',
+    feild1: 'value1',
+    feild2: 'value2',
+    feild3: 'value3',
+    feild4: 'value4',
+    feild5: 'value5',
+    feild6: 'value6',
   },
 ];
 
@@ -56,7 +114,12 @@ const rowSelection = {
   },
 };
 const ListItems = () => (
-  <Table rowSelection={rowSelection} columns={columns} dataSource={data} />
+  <Table
+    rowSelection={rowSelection}
+    columns={columns}
+    dataSource={data}
+    pagination={false}
+  />
 );
 
 ListItems.propTypes = {};

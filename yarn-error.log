@@ -217,7 +217,7 @@ npm manifest:
       "enzyme": "3.3.0",
       "enzyme-adapter-react-16": "1.1.1",
       "enzyme-to-json": "3.3.4",
-      "eslint": "4.19.1",
+      "eslint": "^4.19.1",
       "eslint-config-airbnb": "16.1.0",
       "eslint-config-airbnb-base": "12.1.0",
       "eslint-config-prettier": "2.9.0",
@@ -3973,9 +3973,9 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   
-  eslint@4.19.1:
+  eslint@^4.19.1:
     version "4.19.1"
-    resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
+    resolved "http://registry.npmjs.org/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
     dependencies:
       ajv "^5.3.0"
       babel-code-frame "^6.22.0"
@@ -11682,7 +11682,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 3221225786
+  Exit code: 1
   Command: C:\Windows\system32\cmd.exe
   Arguments: /d /s /c cross-env NODE_ENV=development node server
   Directory: D:\React\vs

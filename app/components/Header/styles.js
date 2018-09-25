@@ -11,7 +11,6 @@ const Wrapper = styled.div`
     height: 35px;
     background: red;
     margin: 16px 24px 16px 30px;
-    // float: left;
     display: inline-flex;
   }
 

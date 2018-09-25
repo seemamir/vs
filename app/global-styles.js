@@ -35,4 +35,17 @@ injectGlobal`
     border-color:#00b22d;
     
   }
+  .ant-table table{
+    margin-top:30px;
+  }
+  .primary-button{
+    width:130px;
+    margin-top:20px;
+    margin-left:30px;
+    background:#4267b2;
+    border-color:#4267b2;
+  }
+  .primary-button:hover{
+    background:#254179;
+  }
 `;
