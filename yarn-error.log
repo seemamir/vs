@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
 
 PATH: 
-  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Naila\AppData\Local\Yarn\bin;C:\Users\Naila\AppData\Roaming\npm
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\computerland\AppData\Local\Yarn\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\computerland\AppData\Roaming\npm
 
 Yarn version: 
   1.5.1
@@ -11682,10 +11682,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 3221225786
-  Command: C:\WINDOWS\system32\cmd.exe
+  Exit code: 1
+  Command: C:\Windows\system32\cmd.exe
   Arguments: /d /s /c cross-env NODE_ENV=development node server
-  Directory: D:\reactProject\vs
+  Directory: D:\React\vs
   Output:
   
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)

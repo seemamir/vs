@@ -27,4 +27,25 @@ injectGlobal`
     font-family: Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
   }
+  .ant-checkbox-checked .ant-checkbox-inner{
+    background:#00b22d;
+    border-color:#00b22d;
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner{
+    border-color:#00b22d;
+    
+  }
+  .ant-table table{
+    margin-top:30px;
+  }
+  .primary-button{
+    width:130px;
+    margin-top:20px;
+    margin-left:30px;
+    background:#4267b2;
+    border-color:#4267b2;
+  }
+  .primary-button:hover{
+    background:#254179;
+  }
 `;

@@ -13,7 +13,7 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-
+import 'antd/dist/antd.css';
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 

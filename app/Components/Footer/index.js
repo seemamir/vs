@@ -5,7 +5,8 @@
  */
 
 import React from 'react';
-import {} from 'antd';
+import { Link } from 'react-router-dom';
+import { Row, Col } from 'antd';
 import Foooter from './style';
 
 // import PropTypes from 'prop-types';
@@ -16,11 +17,21 @@ class Footer extends React.Component {
   render() {
     return (
       <Foooter>
-        <div>
-          <h3>Company logo</h3>
-        </div>
-        <p>Terms of services</p>
-        <p>Term</p>
+        <Row>
+          <Col span={12}>
+            <div className="logo" />
+          </Col>
+          <Col span={12}>
+            <ul>
+              <li>
+                <Link to="/">Terms Of Services</Link>
+              </li>
+              <li>
+                <Link to="/">Help</Link>
+              </li>
+            </ul>
+          </Col>
+        </Row>
       </Foooter>
     );
   }

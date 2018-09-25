@@ -12,14 +12,19 @@
 import React from 'react';
 // import { FormattedMessage } from 'react-intl';
 // import messages from './messages';
-import Footer from './../../Components/Footer/index';
-import inputBox from './../../Components/InputBox/index';
+import Navbar from '../../components/Header/Loadable';
+import ListItems from '../../components/Table/Loadable';
+import Footer from '../../components/Footer/Loadable';
+import DefaultButton from '../../components/Button/Loadable';
 
 /* eslint-disable react/prefer-stateless-function */
-export default class HomePage extends React.PureComponent {
+export default class HomePage extends React.Component {
   render() {
     return (
       <div>
+        <Navbar />
+        <ListItems />
+        <DefaultButton />
         <Footer />
         <inputBox />
       </div>
