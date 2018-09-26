@@ -10,9 +10,9 @@ import { Link } from 'react-router-dom';
 // import styled from 'styled-components';
 
 /* eslint-disable react/prefer-stateless-function */
-const Draft = () => (
+const Draft = ({ children }) => (
   <Link to="" className="link-draft">
-    Draft
+    {children}
   </Link>
 );
 

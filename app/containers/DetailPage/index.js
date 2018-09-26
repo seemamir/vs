@@ -20,6 +20,7 @@ import saga from './saga';
 import Navbar from '../../components/Header/Loadable';
 import Footer from '../../components/Footer/Loadable';
 import Content from '../../components/Content/Loadable';
+import { Wrapper } from './Loadable';
 
 /* eslint-disable react/prefer-stateless-function */
 export class DetailPage extends React.Component {
@@ -41,7 +42,7 @@ export class DetailPage extends React.Component {
 }
 
 DetailPage.propTypes = {
-  dispatch: PropTypes.func.isRequired,
+  // dispatch: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = createStructuredSelector({

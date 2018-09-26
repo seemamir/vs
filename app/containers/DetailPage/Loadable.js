@@ -10,3 +10,7 @@ export default Loadable({
   loader: () => import('./index'),
   loading: () => null,
 });
+export const Wrapper = Loadable({
+  loader: () => import('./section'),
+  loading: () => null,
+});

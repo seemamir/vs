@@ -51,13 +51,39 @@ injectGlobal`
 .link-draft{
   color:grey;
   text-decoration: underline;
-}
-.link-draft:hover{
-  text-decoration: underline;
-  color:grey;
-}
-  .Icon{
-    font-size:30px;
-    
+  :hover{
+    text-decoration: underline;
+    color:grey;
   }
+}
+
+  .checkbox-wrapper{
+    background: #eee;
+    padding: 0 5px 5px 5px;
+    border-radius:5px;
+    
+    .text{
+      background: #ddd;
+      padding:3px;
+    }
+    .icon{
+      font-size:20px;
+      margin-left:8px;
+      opacity:0.2
+    }
+    .ant-checkbox-input:checked + label{
+      color:red;
+    }
+    :hover, :active, :focus, :focus-within, :visited{
+      background: #e6f7ff;
+      .text{
+        background: #c1edff
+      }
+    }
+  }
+  .ant-form-vertical .ant-form-item{
+    padding-bottom:20px;
+  }
+  
+  
 `;

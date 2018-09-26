@@ -4,7 +4,7 @@ import { Input, Icon } from 'antd';
 const InputBox = () => (
   <Input
     placeholder="Enter your data"
-    addonAfter={<Icon type="setting" />}
+    addonAfter={<Icon type="plus" />}
     className="input-box"
   />
 );

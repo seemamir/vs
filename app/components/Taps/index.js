@@ -23,9 +23,7 @@ class Taps extends React.Component {
               </span>
             }
             key="1"
-          >
-            Tab 1
-          </TabPane>
+          />
           <TabPane
             tab={
               <span>
