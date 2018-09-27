@@ -36,14 +36,15 @@ injectGlobal`
     
   }
   .ant-table table{
-    margin-top:30px;
+    margin-top:10px;
   }
   .primary-button{
     width:130px;
     margin-top:20px;
-    margin-left:30px;
+    // margin-left:30px;
     background:#4267b2;
     border-color:#4267b2;
+    margin-bottom:10px;
   }
   .primary-button:hover{
     background:#254179;
@@ -82,8 +83,20 @@ injectGlobal`
     }
   }
   .ant-form-vertical .ant-form-item{
-    padding-bottom:20px;
+    margin-bottom:0;
   }
-  
+  .mr5{
+    margin-right:5px;
+  }
+  .hr{
+    border-color: #dad3d314;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .heading{
+    padding-top:30px;
+    margin-bottom:0;
+  }
+ 
   
 `;

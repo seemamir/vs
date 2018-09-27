@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   .logo {
     width: 120px;
     height: 35px;
-    background: red;
+    background: #8c7d7d;
     margin: 16px 24px 16px 30px;
     display: inline-flex;
   }

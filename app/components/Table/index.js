@@ -6,6 +6,7 @@
 
 import React from 'react';
 import { Row, Col, Table } from 'antd';
+import DefaultButton from '../Button/Loadable';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
@@ -115,13 +116,25 @@ const rowSelection = {
 };
 const ListItems = () => (
   <Row>
-    <Col>
+    <Col xs={{ span: 8, offset: 4 }} lg={{ span: 6, offset: 6 }}>
+      <h3 className="heading">
+        <b>Type 1 Item</b>
+      </h3>
+    </Col>
+    <Col xs={{ span: 8, offset: 4 }} lg={{ span: 6, offset: 6 }}>
+      <h3 className="heading">
+        <b>Type 1 Item</b>
+      </h3>
+    </Col>
+
+    <Col span={22} offset={1}>
       <Table
         rowSelection={rowSelection}
         columns={columns}
         dataSource={data}
         pagination={false}
       />
+      <DefaultButton />
     </Col>
   </Row>
 );

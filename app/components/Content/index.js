@@ -20,7 +20,7 @@ const ContentWrapper = () => (
   <Layout>
     <Content>
       <Row>
-        <Col span={12}>
+        <Col sm={24} lg={12}>
           <Box>
             <Row>
               <Col span={22}>
@@ -29,12 +29,12 @@ const ContentWrapper = () => (
                 </ContHeader>
               </Col>
               <Col span={2}>
-                <Draft />
+                <Draft>Draft</Draft>
               </Col>
             </Row>
-            <hr />
+            <hr className="hr" />
             <Row>
-              <Col span={18}>
+              <Col xs={12} sm={11} lg={18}>
                 <span>Address 1</span>
                 <br />
                 <span>Address 2</span>
@@ -43,38 +43,38 @@ const ContentWrapper = () => (
                 <br />
                 <span>State</span>
               </Col>
-              <Col span={6}>
+              <Col xs={12} sm={11} lg={6}>
                 <BlockButton>View Full Report</BlockButton>
               </Col>
             </Row>
             <Row>
-              <Col span={18}>
+              <Col xs={12} sm={11} lg={18}>
                 {/* <ContHeader>Select a Report Type</ContHeader> */}
                 <h4>Select a Report Type</h4>
               </Col>
-              <Col span={6}>
+              <Col xs={12} sm={11} lg={18}>
                 <BlockButton>View Full Report</BlockButton>
               </Col>
             </Row>
             <Row>
-              <Col span={12}>
-                <Wrapper>
+              <Col sm={22} lg={12}>
+                <Wrapper className="mr5">
                   <b>Section 1</b>
                 </Wrapper>
               </Col>
-              <Col span={12}>
+              <Col sm={22} lg={12}>
                 <Wrapper>
                   <b>Section 2</b>
                 </Wrapper>
               </Col>
             </Row>
             <Row>
-              <Col span={12}>
+              <Col sm={22} lg={12}>
                 <Wrapper>
                   <b>Section 3</b>
                 </Wrapper>
               </Col>
-              <Col span={12}>
+              <Col sm={22} lg={12}>
                 <Wrapper>
                   <b>Section 4</b>
                 </Wrapper>
@@ -88,7 +88,7 @@ const ContentWrapper = () => (
           </Box>
         </Col>
 
-        <Col span={12}>
+        <Col sm={24} lg={12}>
           <Box className="gutter-box">
             <ContentRight />
           </Box>

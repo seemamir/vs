@@ -8,7 +8,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 import { Tabs, Icon } from 'antd';
-const TabPane = Tabs.TabPane;
+const { TabPane } = Tabs;
 
 /* eslint-disable react/prefer-stateless-function */
 class Taps extends React.Component {
@@ -23,7 +23,13 @@ class Taps extends React.Component {
               </span>
             }
             key="1"
-          />
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              tempora harum dolorum nulla asperiores doloribus recusandae!
+              Itaque accusantium suscipit.
+            </p>
+          </TabPane>
           <TabPane
             tab={
               <span>
@@ -32,7 +38,11 @@ class Taps extends React.Component {
             }
             key="2"
           >
-            Tab 2
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              tempora harum dolorum nulla asperiores doloribus recusandae!
+              Itaque accusantium suscipit.
+            </p>
           </TabPane>
           <TabPane
             tab={
@@ -42,7 +52,11 @@ class Taps extends React.Component {
             }
             key="3"
           >
-            Tab 3
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              tempora harum dolorum nulla asperiores doloribus recusandae!
+              Itaque accusantium suscipit.
+            </p>
           </TabPane>
           <TabPane
             tab={
@@ -52,7 +66,11 @@ class Taps extends React.Component {
             }
             key="4"
           >
-            Tab 4
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              tempora harum dolorum nulla asperiores doloribus recusandae!
+              Itaque accusantium suscipit.
+            </p>
           </TabPane>
           <TabPane
             tab={
@@ -62,17 +80,11 @@ class Taps extends React.Component {
             }
             key="5"
           >
-            Tab 5
-          </TabPane>
-          <TabPane
-            tab={
-              <span>
-                <Icon type="barcode" theme="outlined" className="Icon" />
-              </span>
-            }
-            key="6"
-          >
-            Tab 6
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              tempora harum dolorum nulla asperiores doloribus recusandae!
+              Itaque accusantium suscipit.
+            </p>
           </TabPane>
         </Tabs>
       </div>

@@ -18,10 +18,10 @@ class Footer extends React.Component {
     return (
       <Foooter>
         <Row>
-          <Col span={12}>
-            <div className="logo" />
+          <Col xs={12} sm={12} lg={12}>
+            <div className="logo">Company logo</div>
           </Col>
-          <Col span={12}>
+          <Col xs={10} sm={12} lg={12}>
             <ul>
               <li>
                 <Link to="">Terms Of Services</Link>

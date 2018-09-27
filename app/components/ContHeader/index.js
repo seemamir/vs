@@ -12,7 +12,7 @@ import PropTypes from 'prop-types';
 const ContHeader = ({ children, ...props }) => <h3 {...props}>{children}</h3>;
 
 ContHeader.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.element,
 };
 
 export default ContHeader;

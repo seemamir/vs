@@ -11,9 +11,7 @@ import PropTypes from 'prop-types';
 
 /* eslint-disable react/prefer-stateless-function */
 const BlockButton = ({ children, ...props }) => (
-  <Button block {...props}>
-    {children}
-  </Button>
+  <Button {...props}>{children}</Button>
 );
 
 BlockButton.propTypes = {
