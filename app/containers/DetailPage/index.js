@@ -17,7 +17,8 @@ import injectReducer from 'utils/injectReducer';
 import makeSelectDetailPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
-import Navbar from '../../components/Header/Loadable';
+// import Navbar from '../../components/Header/Loadable';
+import Navbar from '../../components/Navbar/Loadable';
 import Footer from '../../components/Footer/Loadable';
 import Content from '../../components/Content/Loadable';
 

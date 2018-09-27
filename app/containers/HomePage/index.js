@@ -12,7 +12,7 @@
 import React from 'react';
 // import { FormattedMessage } from 'react-intl';
 // import messages from './messages';
-import Navbar from '../../components/Header/Loadable';
+import Navbar from '../../components/Navbar/Loadable';
 import ListItems from '../../components/Table/Loadable';
 import Footer from '../../components/Footer/Loadable';
 
