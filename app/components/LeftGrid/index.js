@@ -47,7 +47,10 @@ class LeftGrid extends React.Component {
           <Col xs={12} sm={12} lg={18}>
             <span>Select a Report Type</span>
           </Col>
-          <Col xs={12} sm={12} lg={4}>
+          <Col xs={12} sm={12} lg={18} xl={19}>
+            <span>Select a Report Type</span>
+          </Col>
+          <Col xs={12} sm={12} lg={4} xl={3}>
             <Dropdown>Report Type here</Dropdown>
           </Col>
         </Row>
