@@ -6,7 +6,6 @@ injectGlobal`
   body {
     height: 100%;
     width: 100%;
-    overflow:hidden;
   }
 
   body {
@@ -23,11 +22,7 @@ injectGlobal`
     min-width: 100%;
   }
 
-  p,
-  label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5em;
-  }
+
   .ant-checkbox-checked .ant-checkbox-inner{
     background:#00b22d;
     border-color:#00b22d;

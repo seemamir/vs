@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Table } from 'antd';
-import DefaultButton from '../Button/Loadable';
+import Button from '../Button/Loadable';
 import { Wrapper } from './Loadable';
 const columns = [
   {
@@ -126,6 +126,7 @@ const rowSelection = {
     );
   },
 };
+
 const ListItems = () => (
   <Wrapper>
     <Row>
@@ -147,7 +148,7 @@ const ListItems = () => (
           dataSource={data}
           pagination={false}
         />
-        <DefaultButton />
+        <Button href="/detail">Submit</Button>
       </Col>
     </Row>
   </Wrapper>

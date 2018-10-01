@@ -1,18 +1,11 @@
-/**
- *
- * ContentRight
- *
- */
-
 import React from 'react';
-// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Row, Col } from 'antd';
 import Taps from '../Taps';
 import Draft from '../Draft';
 const ContWrapper = styled.div``;
 
-const ContentRight = () => (
+const RightGrid = () => (
   <ContWrapper>
     <Row>
       <Col span={24}>
@@ -32,7 +25,7 @@ const ContentRight = () => (
         <span>Paragraph1</span>
         <hr className="hr" />
         <Row>
-          <Col xs={12} sm={12} span={20}>
+          <Col xs={12} sm={12} span={19}>
             <h4>
               <b>Section 2</b>
             </h4>
@@ -41,8 +34,9 @@ const ContentRight = () => (
             <br />
             <span>Long Text Line 1</span>
           </Col>
-          <Col xs={12} sm={12} span={4}>
+          <Col xs={12} sm={12} span={3} style={{ textAlign: 'right' }}>
             <Draft>hyperlink1</Draft>
+            <hr className="hr" />
           </Col>
         </Row>
         <h4>
@@ -71,6 +65,6 @@ const ContentRight = () => (
   </ContWrapper>
 );
 
-ContentRight.propTypes = {};
+RightGrid.propTypes = {};
 
-export default ContentRight;
+export default RightGrid;

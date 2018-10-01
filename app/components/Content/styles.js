@@ -3,7 +3,7 @@ const Box = styled.div`
   border: 1px solid lightgrey;
   background: white;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   .boxes {
     width: 400px;
     height: 400px;

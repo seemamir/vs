@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 /* eslint-disable react/prefer-stateless-function */
 const Draft = ({ children }) => (
-  <Link to="" className="link-draft">
+  <Link to="/" className="link-draft">
     {children}
   </Link>
 );

@@ -1,11 +1,4 @@
-/**
- *
- * DetailPage
- *
- */
-
 import React from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { createStructuredSelector } from 'reselect';
@@ -17,7 +10,6 @@ import injectReducer from 'utils/injectReducer';
 import makeSelectDetailPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
-// import Navbar from '../../components/Header/Loadable';
 import Navbar from '../../components/Navbar/Loadable';
 import Footer from '../../components/Footer/Loadable';
 import Content from '../../components/Content/Loadable';
@@ -33,7 +25,9 @@ export class DetailPage extends React.Component {
         </Helmet>
         <Layout>
           <Navbar />
-          <Content />
+          <Layout style={{ margin: '100px 0 50px 0' }}>
+            <Content />
+          </Layout>
           <Footer />
         </Layout>
       </div>

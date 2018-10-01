@@ -1,18 +1,36 @@
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  margin-bottom: 64px;
+  z-index: 999;
   height: auto;
   box-shadow: 0px 1px 10px 0 #ccc;
   .ant-layout-header {
     background: white;
     border-bottom: 1px solid #e8e8e8;
+    .collapse__menu {
+      margin-right: 10px;
+      display: inline-block;
+      i {
+        font-size: 28px !important;
+        color: #222;
+      }
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
     .logo {
-      width: 120px;
-      height: 31px;
-      float: left;
+      display: inline-block;
     }
     .ant-menu-horizontal {
       border: 0;
+      float: right;
+      line-height: 58px;
       .ant-menu-item {
         color: #555;
         border: 0;
@@ -48,9 +66,7 @@ const HeaderWrapper = styled.div`
         visibility: hidden;
         height: 0;
         width: 100%;
-        padding-bottom: 20px;
         text-align: center;
-        margin-top: 32px;
         transition: height 2s;
         -webkit-transition: height 2s;
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
@@ -65,6 +81,7 @@ const HeaderWrapper = styled.div`
         }
       }
       .open_menu {
+        padding-bottom: 20px;
         visibility: visible;
         height: auto;
         transition: height 2s;
@@ -78,6 +95,7 @@ const HeaderWrapper = styled.div`
   .nav-six {
     font-size: 28px;
     padding-right: 5px;
+    posetion: relative;
   }
   .nav-type1 {
     font-size: 12px;
@@ -86,6 +104,15 @@ const HeaderWrapper = styled.div`
   }
   .user-icon {
     font-size: 20px;
+  }
+  .open_menu .nav-item {
+    visibility: visible !important;
+  }
+  .open_menu.nav-item: first-child {
+    visibility: hidden !important;
+  }
+  .ant-menu-submenu {
+    display: none;
   }
 `;
 export default HeaderWrapper;
