@@ -6,11 +6,12 @@ import RightGrid from '../RightGrid/Loadable';
 
 const { Content } = Layout;
 
-const ContentWrapper = () => (
+const ContentWrapper = props => (
   <Content>
+    {/* {console.log(props)} */}
     <Row>
       <Col sm={24} lg={12}>
-        <LeftGrid />
+        <LeftGrid selectedRows={props.selectedRows} />
       </Col>
 
       <Col sm={24} lg={12}>

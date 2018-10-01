@@ -5,7 +5,11 @@ import PropTypes from 'prop-types';
 const Heading = ({ children, ...props }) => <h3 {...props}>{children}</h3>;
 
 Heading.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.string,
+    PropTypes.array,
+  ]),
 };
 
 export default Heading;

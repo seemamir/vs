@@ -11,12 +11,17 @@ import Button from '../Button/Loadable';
 /* eslint-disable react/prefer-stateless-function */
 class LeftGrid extends React.Component {
   render() {
+    const { selectedRows } = this.props;
+
     return (
       <Box>
         <Row>
           <Col span={22}>
             <Heading>
-              <b>NAME1 NAME1</b>
+              {selectedRows &&
+                selectedRows.selectedRows.map(item => (
+                  <b key={Math.random()}>{item.name + ' '}</b>
+                ))}
             </Heading>
           </Col>
           <Col span={2}>
@@ -39,10 +44,10 @@ class LeftGrid extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} sm={12} lg={19}>
+          <Col xs={12} sm={12} lg={18}>
             <span>Select a Report Type</span>
           </Col>
-          <Col xs={12} sm={12} lg={3}>
+          <Col xs={12} sm={12} lg={4}>
             <Dropdown>Report Type here</Dropdown>
           </Col>
         </Row>
