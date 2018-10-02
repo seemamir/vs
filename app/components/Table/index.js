@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Table } from 'antd';
+import { Row, Col, Table, Popover } from 'antd';
 import Button from '../Button/Loadable';
 import { Wrapper } from './Loadable';
+import data from './data';
 const columns = [
   {
     title: 'Name',
@@ -38,19 +39,35 @@ const columns = [
   },
 ];
 
-// rowSelection object indicates the need for row selection
-
 class ListItems extends React.Component {
   constructor() {
     super();
     this.state = {
-      // selectedRows: [],
+      selectedRows: [],
     };
   }
+
+  renderDetail = () => {
+    if (this.state.selectedRows.length === 0) {
+      return (
+        <Popover content="please check any field from table" trigger="click">
+          <Button className="primary-button">Submit</Button>
+        </Popover>
+      );
+    }
+    return (
+      <Link className="primary-button" to="/detail">
+        Submit
+      </Link>
+    );
+  };
   render() {
     const rowSelection = {
       onChange: (selectedRowKeys, selectedRows) => {
         this.props.selectedRows(selectedRows);
+        this.setState({
+          selectedRows,
+        });
       },
     };
     return (
@@ -74,7 +91,7 @@ class ListItems extends React.Component {
               dataSource={data}
               pagination={false}
             />
-            <Link to="/detail">Submit</Link>
+            {this.renderDetail()}
           </Col>
         </Row>
       </Wrapper>

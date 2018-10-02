@@ -35,12 +35,19 @@ injectGlobal`
     margin-top:10px;
   }
   .primary-button{
-    width:130px;
+    padding:0 20px;
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+    color:white;
     margin-top:20px;
-    // margin-left:30px;
     background:#4267b2;
     border-color:#4267b2;
     margin-bottom:10px;
+    border-radius: 3px;
+    :hover{
+      color:white;
+    }
   }
   .primary-button:hover{
     background:#254179;
@@ -89,6 +96,7 @@ injectGlobal`
     margin-top:10px;
     margin-bottom:10px;
   }
+ 
 
  
   

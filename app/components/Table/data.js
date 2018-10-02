@@ -1,7 +1,7 @@
-const data =[
-    {
-    key: '1',
-    name: 'Name1',
+const data = [
+  {
+    key: 1,
+    name: 'Name 1',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -9,10 +9,10 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
-    {
-    key: '2',
-    name: 'Name2',
+  },
+  {
+    key: 2,
+    name: 'Name 2',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -20,10 +20,10 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
-    {
-    key: '3',
-    name: 'Name3',
+  },
+  {
+    key: 3,
+    name: 'Name 3',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -31,10 +31,10 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
-    {
-    key: '4',
-    name: 'Name4',
+  },
+  {
+    key: 4,
+    name: 'Name 4',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -42,21 +42,10 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
-    {
-    key: '5',
-    name: 'Name5',
-    field1: 'value1',
-    field2: 'value2',
-    Field3: 'value3',
-    field4: 'value4',
-    field5: 'value5',
-    field6: 'value6',
-    field7: 'value7',
-    },
-    {
-    key: '6',
-    name: 'Name6',
+  },
+  {
+    key: 5,
+    name: 'Name 5',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -64,10 +53,10 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
-    {
-    key: '7',
-    name: 'Name7',
+  },
+  {
+    key: 6,
+    name: 'Name 6',
     field1: 'value1',
     field2: 'value2',
     field3: 'value3',
@@ -75,5 +64,18 @@ const data =[
     field5: 'value5',
     field6: 'value6',
     field7: 'value7',
-    },
+  },
+  {
+    key: 7,
+    name: 'Name 7',
+    field1: 'value1',
+    field2: 'value2',
+    field3: 'value3',
+    field4: 'value4',
+    field5: 'value5',
+    field6: 'value6',
+    field7: 'value7',
+  },
 ];
+
+export default data;
